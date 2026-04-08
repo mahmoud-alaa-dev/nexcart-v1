@@ -40,11 +40,11 @@ function changePaddingBasedOnWindowSize(){
     switch (true) {
         case window.innerWidth <= 767:
             document.body.style.paddingTop = `${header.clientHeight * 1.1}px`;
-            navLinksContainer.style.top = `${header.clientHeight}px`;
+            navLinksContainer.style.top = `${header.clientHeight - 5}px`;
             break;
         case window.innerWidth > 767 && window.innerWidth < 992:
             document.body.style.paddingTop = `${header.clientHeight * 1.29}px`;
-            navLinksContainer.style.top = `${header.clientHeight}px`;
+            navLinksContainer.style.top = `${header.clientHeight - 5}px`;
             break;
         case window.innerWidth > 992 && window.innerWidth < 1200:
             document.body.style.paddingTop = `${header.clientHeight * 1.34}px`;
