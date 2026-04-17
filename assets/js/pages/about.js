@@ -18,7 +18,6 @@ const ELEMENTS = {
 };
 
 const options = {
-    threshold: 0.2,
     rootMargin: "0px 1000px 0px 1000px"
 };
 
