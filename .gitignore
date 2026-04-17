@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# prepros
+prepros.config
+
+# logs
+*.log
+
+# build folders
+/dist
+/build
+
+#env files
+.env
